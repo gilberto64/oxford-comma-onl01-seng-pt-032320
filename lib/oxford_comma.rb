@@ -1,5 +1,7 @@
-def oxford_comma(array1)
+def oxford_comma(array)
+  if array.count == 1 
   array.join
+  els
   array.join (" and ")
 end
 
